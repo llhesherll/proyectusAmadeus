@@ -1,0 +1,69 @@
+.header {
+    background-color: white;
+    display: flex;
+}
+
+.logoo{
+    width:50px;
+    height:50px;
+}
+
+.navegacion {    
+    float: right;
+}
+
+.principal {
+    background-color: white;
+}
+
+#contenedorPerro {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.contenido{
+    background-color: rgb(187, 186, 186);
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes img{
+    width: 25px;
+    height: 25px;    
+    border-radius: 200%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.redes{
+    text-align: right;
+}
+
+.lateral_izq {
+    /*background-color: yellowgreen;*/
+    width: 48%;
+    float: left;
+    text-align: right;
+}
+
+.lateral_der {
+    /*background-color: tomato;*/
+    width: 48%;
+    float: right;
+}
+
+#comida {
+    width: 70%;
+    height: auto;
+}
+
+.footer {
+    display: inline;
+    align-content: center;
+}
+
+.navegacion-QS {
+    float: right;
+}

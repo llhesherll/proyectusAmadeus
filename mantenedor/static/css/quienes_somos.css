@@ -1,0 +1,55 @@
+.header {
+    background-color: white;
+    display: flex;
+}
+
+.nav-link{
+    color: black;
+}
+
+
+.contenido{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.lateral_izq {
+    
+    width: 48%;
+    float: left;
+    text-align: right;
+}
+
+.lateral_der {
+    width: 48%;
+    height: 100%;
+    float: right;
+}
+
+#contenedor-inferior{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (max-width: 750px) {
+   .logo{
+       display: none;
+   }
+   .titulo{
+       display: none;
+   }
+
+   .nav-link {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+    
+}

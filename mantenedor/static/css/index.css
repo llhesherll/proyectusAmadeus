@@ -1,0 +1,114 @@
+.header {
+    background-color: white;
+    display: flex;
+
+}
+
+.logoo{
+    width:50px;
+    height:50px;
+    
+}
+
+#titulo {    
+    float: left;
+    text-align-last: auto;
+    display: contents;
+}
+
+.principal {
+    background-color: white;
+}
+
+#contenedorPerro {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.contenido{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes img{
+    width: 25px;
+    height: 25px;    
+    border-radius: 200%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.redes{
+    text-align: right;
+}
+
+.lateral_izq {
+    /*background-color: yellowgreen;*/
+    width: 48%;
+    float: left;
+    text-align: right;
+}
+
+.lateral_der {
+    /*background-color: tomato;*/
+    width: 48%;
+    float: right;
+}
+
+#comida {
+    width: 70%;
+    height: auto;
+}
+
+.footer {
+    display: inline;
+    align-content: center;
+}
+
+.navegacion{
+    display: flex;
+    width: 100%;
+    background-color:white;
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.container{
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo-footer{
+    width: 50px;
+    display: flex;
+    align-content: center;
+}
+
+@media screen and (max-width: 750px) {
+    body>h1 {
+        font-size: 3rem;
+    }
+    section {
+        -ms-flex-direction: column;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+    }
+
+    .nav-link {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+}
+

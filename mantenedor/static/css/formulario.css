@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.logoo{
+    width: 50px;
+}
+
+.container-2{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+
+}

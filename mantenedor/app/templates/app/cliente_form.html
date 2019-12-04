@@ -1,0 +1,52 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flex2.css' %}">
+    <title>Inscripción cliente</title>
+</head>
+<body>
+    <h1>Inscripción CAT-HAN</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{form}}
+    <button type="submit">Guardar</button>
+    <a href="inicio"> Volver a inicio</a>
+    </form>
+    <section id="contenedor-inferior">
+        <div class="lateral_izq">
+           
+        </div>
+        <div class="lateral_der">
+            <h1> ¿Quienes Somos? </h1>
+            <p> Nuestro amor por los animales, y en este
+                caso los gatos, nos ha llevado a querer
+                llevar su escencia en nuestra ropa. Por eso
+                es que decidimos diseñar de forma exclusiva para ustedes.
+
+                Siempre comprometidos con traer lo último de la moda
+                a nuestros clientes, contamos con los mejores diseñadores
+                que trabajan exclusivamente para nuestra marca.
+            </p>
+            <br>
+        </div>
+    </section>
+
+ <section class="font">
+        <article class="gatos">
+            <img src="static/img/neko3.jpg" alt="neko3">
+            <h1>Vestido tipo peto con carita de gato y orejitas.</h1>
+            <h2>Largo ajustable gracias a los tirantes.</h2>
+            <h3>Color: Negro</h3>
+            <h4> Tela: Denim </h4>
+            <h5> Precio:$10.000</h5>
+            <p>Tallas: S - M - L.
+        </article>
+</body>
+</html>
